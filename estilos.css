@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 210px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.contenedorImagen {
+    background-image: url('img/banner.jpg');
+    background-size: contain;
+    height: 300px;  
+    width: 100%;  
+}
+
+.contenedorTitulo {
+    color: white;
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.contenedorTitulo h1{
+    padding-left: 5px;
+}
+
+.contenedorTitulo h3 {
+    font-size: 10px;
+    text-align: left;
+}
+
+.boton1 {
+    background-color:  #9BF00B;
+    color: rgb(17, 17, 17);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.boton2 {
+    background-color: rgb(17, 17, 17);
+    color:  #9BF00B;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.contenedorApps{
+    background-color: white;
+    display: flex;
+    padding-left: 50px;
+}
+
+.apps{
+    list-style-type: none;
+    display: flex;
+}
+
+.contenedorListas{
+    display: flex;
+    list-style-type: none;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.contenedorListas ul{
+    list-style-type: none;
+}
+
+
+.final{
+    padding-left: 70px;
+    background-color: #F2F2F2;
+    text-align: end;
+}
